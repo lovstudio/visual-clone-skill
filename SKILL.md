@@ -1,5 +1,5 @@
 ---
-name: lovstudio:visual-clone
+name: lovstudio-visual-clone
 category: "Image & Design"
 tagline: "Extract design DNA from reference images / 提取设计要素生成复刻指令"
 description: >
