@@ -18,23 +18,15 @@ Part of [lovstudio/skills](https://github.com/lovstudio/skills) — by [lovstudi
 ## Install
 
 ```bash
-npx skills add lovstudio/skills --skill lovstudio-visual-clone -g -y
+# 一行带激活（推荐）
+npx lovstudio skills add visual-clone -k lk-<your-license-key> -g -y
+
+# 或：先装后激活
+npx lovstudio skills add visual-clone -g -y
+npx lovstudio license activate lk-<your-license-key>
 ```
 
-或通过 Claude Code 原生市场：
-
-```
-/plugin marketplace add lovstudio/skills
-/plugin install visual-clone@lovstudio
-```
-
-首次使用需激活 license：
-
-```bash
-uvx lovstudio-skill-helper activate <your-license-key>
-```
-
-还没有 key？前往 [lovstudio.ai](https://lovstudio.ai) 购买。
+还没有 license key？前往 [lovstudio.ai](https://lovstudio.ai) 购买。
 
 ## Usage
 
